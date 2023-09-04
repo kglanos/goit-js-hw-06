@@ -10,6 +10,6 @@ listCategories.forEach((category) => {
     const listElements = category.querySelectorAll("ul li");
     const amountElements = listElements.length;
 
-    console.log(`Category;`, nameCategory);
+    console.log(`Category:`, nameCategory);
     console.log('Elements:', amountElements);
 });
